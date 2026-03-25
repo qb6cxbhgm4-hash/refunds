@@ -1,0 +1,12 @@
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--ink:#0f1115;--ink2:#2d2f36;--ink3:#6b7080;--ink4:#9ca3af;--bg:#f8f9fb;--surf:#fff;--sf2:#f3f4f6;--sf3:#e5e7eb;--g:#15803d;--gm:#16a34a;--gb:#22c55e;--gl:#dcfce7;--am:#d97706;--al:#fef3c7;--re:#dc2626;--rl:#fee2e2;--bl:#2563eb;--bll:#dbeafe;--bd:#e5e7eb;--r:10px;--r2:14px}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;font-size:14px;line-height:1.5}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hov-row:hover{background:var(--bg)!important}
+.hov-btn{transition:all .12s!important}.hov-btn:hover{background:var(--sf2)!important;border-color:var(--sf3)!important}
+.hov-g{transition:all .12s!important}.hov-g:hover{background:var(--g)!important}
+.hov-d{transition:all .12s!important}.hov-d:hover{background:var(--re)!important;color:#fff!important}
+.hov-card{transition:all .15s!important}.hov-card:hover{border-color:#d1d5db!important;box-shadow:0 2px 8px rgba(0,0,0,.04)!important}
+.sb-hov{transition:all .12s!important}.sb-hov:hover{background:var(--sf2)!important;color:var(--ink2)!important}
